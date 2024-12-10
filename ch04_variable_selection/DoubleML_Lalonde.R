@@ -147,7 +147,7 @@ for(k in 1:K){
   gammaL[Ik] = SE.ATT(Y[Ik],D[Ik],g0hatL,mhatL,IndL)$gamma
   
   thetaRF[k] = ATT(Y[Ik],D[Ik],g0hatRF,mhatRF,IndRF)
-  gammaRF[Ik] = SE.ATT(Y[Ik],D[Ik],g0hatRF,mhatRF,IndL)$gamma
+  gammaRF[Ik] = SE.ATT(Y[Ik],D[Ik],g0hatRF,mhatRF,IndRF)$gamma
 }
 
 ### Results
